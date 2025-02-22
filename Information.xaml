@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BMICalculator.Information"
+             Title="Information">
+    <VerticalStackLayout>
+        <Label
+           Text="Underweight (below 18.5)"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           />
+        <Label
+           Text="Normal (18.5 - below 25)"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           />
+        <Label
+           Text="Overweight (below 30)"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           />
+        <Label
+           Text="Obese (over 30)"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           />
+    </VerticalStackLayout>
+</ContentPage>
